@@ -1,0 +1,20 @@
+@import '../../../source';
+
+.rightSide{
+    height: 95%;
+    width: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+    @include disp(column, space-around, space-around);
+    animation: rightPop 2s 1;
+}
+
+@keyframes rightPop {
+    0%{
+        transform: translateX(200px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}

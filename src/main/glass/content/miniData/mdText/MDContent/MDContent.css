@@ -1,0 +1,19 @@
+.miniContent {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.miniContentText {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 664px) {
+  .miniContentText {
+    font-size: 1.05rem;
+  }
+}/*# sourceMappingURL=MDContent.css.map */

@@ -1,0 +1,68 @@
+.qContainer {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.quotes {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .qContainer {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .quotes {
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 512px) and (max-width: 767px) {
+  .qContainer {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+  }
+
+  .quotes {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 511px) {
+  .qContainer {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .quotes {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=quotesContainer.css.map */

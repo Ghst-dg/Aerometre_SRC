@@ -1,0 +1,65 @@
+@import '../../../../source.scss';
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.lButtonContainer{
+    height: 100%;
+    width: 60%;
+    @include disp(row, flex-end, center);
+}
+
+.lButton{
+    margin-right: 12px;
+    background-color: rgba(255, 255, 255, 15%);
+    color: white;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0px 8px 48px 0px rgba(0, 0, 0, 50%);
+    border-radius: 2rem;
+    font-family: 'Urbanist', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lButton:active {
+    box-shadow: 0px 8px 56px 0px rgba(0, 0, 0, 50%);
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .lButtonContainer{
+        width: 60vw;
+    }
+}
+
+@media (min-width: 512px)and (max-width: 767px) {
+    .lButtonContainer {
+        width: 50%;
+    }
+
+    .lButton{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 511px) {
+    .lButtonContainer {
+        width: 50%;
+    }
+
+    .lButton{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lButtonContainer {
+        width: 45vw;
+    }
+
+    .lButton{
+        font-size: 0.7rem;
+    }
+}

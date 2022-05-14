@@ -1,0 +1,22 @@
+.wData {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 75px;
+  overflow-y: scroll;
+}
+
+.invisi {
+  display: none;
+}
+
+@media screen and (max-width: 664px) {
+  .wData {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    justify-content: space-around;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}/*# sourceMappingURL=W.css.map */

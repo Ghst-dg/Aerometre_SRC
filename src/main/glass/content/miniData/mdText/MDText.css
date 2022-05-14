@@ -1,0 +1,15 @@
+.GMDText {
+  height: 100%;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 664px) {
+  .textContainer {
+    width: 14rem;
+  }
+}/*# sourceMappingURL=MDText.css.map */

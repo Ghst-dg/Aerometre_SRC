@@ -1,0 +1,29 @@
+@import '../../../source';
+
+
+.MSearchBox{
+    background-color: rgba(255, 255, 255, 15%);
+    border: none;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 30%);
+    border-radius: 2rem;
+    font-family: 'Urbanist', sans-serif;
+    height: 36px;
+    width: 400px;
+    @include disp();
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+@media(min-width: 950px) and (max-width: 1500px){
+    .MSearchBox{
+        height: 36px;
+        width: 300px;
+    }
+}
+
+@media  screen and (max-width: 949px) {
+    .MSearchBox{
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+@import '../../../../source';
+
+.dataBox{
+    max-height: 75px;
+    max-width: 300px;
+    @include disp(row, space-between, space-between);
+}
+
+@media (min-width: 306px) and (max-width: 664px){
+    .dataBox {
+        height: 4.52rem;
+        width: 300px;
+        @include disp(row, center, space-between);
+    }
+}
+
+@media  screen and (max-width: 305px) {
+    .dataBox {
+        height: 3rem;
+        width: 300px;
+        @include disp(row, center, space-between);
+    }
+}

@@ -1,0 +1,7 @@
+@mixin disp($direction : row, $just : space-around, $align : space-around) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $just;
+    align-content: $align;
+    flex-wrap: wrap;
+}

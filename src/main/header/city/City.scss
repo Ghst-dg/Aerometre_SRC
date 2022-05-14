@@ -1,0 +1,38 @@
+@import '../../../source';
+
+.MTitleBox{
+    width: 20%;
+    height: 100%;
+    @include disp(column, center, center);
+    flex-wrap: no-wrap;
+}
+
+@media screen and (max-width: 530px){
+    .MTitleBox{
+        width: 40%;
+    }
+}
+
+.cityTitle{
+    font-size: 48px;
+    text-align: center;
+}
+
+@media screen and (max-width: 530px){
+    .cityTitle{
+        font-size: 24px;
+        text-align: left;
+    }
+}
+
+.timeText{
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+}
+
+@media screen and (max-width: 530px){
+    .timeText{
+        text-align: left;
+    }
+}

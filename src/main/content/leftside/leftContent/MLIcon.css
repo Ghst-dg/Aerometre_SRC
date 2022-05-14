@@ -1,0 +1,32 @@
+.mainIconContainer {
+  width: 95%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-wrap: no-wrap;
+}
+
+.MLIcon {
+  width: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MLText {
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+  .MLIcon {
+    width: 36px;
+  }
+
+  .MLText {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=MLIcon.css.map */

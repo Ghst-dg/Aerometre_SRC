@@ -1,0 +1,7 @@
+@import '../../source';
+
+.MContent{
+    width: 100%;
+    height: 45%;
+    @include disp(row, center, center);
+}

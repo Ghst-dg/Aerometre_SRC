@@ -1,0 +1,36 @@
+@import '../../../../../source';
+
+.GIconContainer{
+    background-color: rgba(255, 255, 255, 40%);
+    height: 65px;
+    width: 65px;
+    border-radius: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    @include disp(row, center, center);
+}
+
+@media (min-width: 304px) and (max-width: 664px){
+    .GIconContainer {
+        height: 4rem;
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width: 305px){
+    .GIconContainer {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+}
+
+.GIcon{
+    width: 50%;
+    margin: auto;
+}
+
+@media screen and (max-width: 664px){
+    .GIcon{
+        width: 60%;
+    }
+}

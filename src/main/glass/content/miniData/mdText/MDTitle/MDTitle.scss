@@ -1,0 +1,20 @@
+@import '../../../../../../source';
+
+.miniTitle{
+    height: 30%;
+    width: 100%;
+    @include disp(row, flex-start, flex-start);
+    text-align: left;
+}
+
+.miniTitleText{
+    font-size: 12px;
+    color: #333333;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 664px){
+    .miniTitleText{
+        font-size: 0.7rem;
+    }
+}

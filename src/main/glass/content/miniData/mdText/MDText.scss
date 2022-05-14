@@ -1,0 +1,14 @@
+@import '../../../../../source';
+
+.GMDText{
+    height: 100%;
+    width: 225px;
+    @include disp(column, center, center);
+}
+
+@media screen and (max-width: 664px){
+    .textContainer {
+        width: 14rem;
+    }
+}
+

@@ -1,0 +1,9 @@
+@import '../../../source';
+
+.MCenter{
+    height: 95%;
+    width: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    @include disp(column, center, center);
+}

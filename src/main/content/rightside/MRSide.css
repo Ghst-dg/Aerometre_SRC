@@ -1,0 +1,31 @@
+.rightSide {
+  height: 95%;
+  width: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  -webkit-animation: rightPop 2s 1;
+          animation: rightPop 2s 1;
+}
+
+@-webkit-keyframes rightPop {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes rightPop {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}/*# sourceMappingURL=MRSide.css.map */

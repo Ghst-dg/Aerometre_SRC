@@ -1,0 +1,46 @@
+@import '../../../source.scss';
+
+.lContent{
+    width: 95%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    @include disp(row, space-between, space-between);
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .lContent{
+        display: grid;
+        grid-template-columns: repeat(1, 80vw);
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+}
+
+@media (min-width: 512px)and (max-width: 767px) {
+    .lContent{
+        display: grid;
+        grid-template-columns: repeat(1, 80vw);
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 511px) {
+    .lContent{
+        display: grid;
+        grid-template-columns: repeat(1, 80vw);
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+    }
+}

@@ -1,0 +1,81 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-size: 150% 150%;
+  -webkit-animation: bGrad 8s ease-in-out infinite;
+          animation: bGrad 8s ease-in-out infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  color: black;
+  display: none;
+}
+
+@-webkit-keyframes bGrad {
+  /*dynamic gradient animation*/
+  0% {
+    background-position: 50% 0%;
+  }
+  12.5% {
+    background-position: 50% 25%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  37.5% {
+    background-position: 50% 75%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  62.5% {
+    background-position: 50% 75%;
+  }
+  75% {
+    background-position: 50% 50%;
+  }
+  87.5% {
+    background-position: 50% 25%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+@keyframes bGrad {
+  /*dynamic gradient animation*/
+  0% {
+    background-position: 50% 0%;
+  }
+  12.5% {
+    background-position: 50% 25%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  37.5% {
+    background-position: 50% 75%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  62.5% {
+    background-position: 50% 75%;
+  }
+  75% {
+    background-position: 50% 50%;
+  }
+  87.5% {
+    background-position: 50% 25%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}/*# sourceMappingURL=Main.css.map */

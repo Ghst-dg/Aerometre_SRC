@@ -1,0 +1,31 @@
+.leftSide {
+  height: 95%;
+  width: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  -webkit-animation: leftPop 2s 1;
+          animation: leftPop 2s 1;
+}
+
+@-webkit-keyframes leftPop {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes leftPop {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}/*# sourceMappingURL=MLSide.css.map */

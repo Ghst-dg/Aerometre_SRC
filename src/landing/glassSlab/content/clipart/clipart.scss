@@ -1,0 +1,57 @@
+@import '../../../../source.scss';
+
+.clipartContainer{
+    height: 100%;
+    width: 50%;
+    @include disp(row, space-around, space-around);
+}
+
+.clipart{
+    width: 55%;
+    filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 35%));
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .clipartContainer{
+        height: 100%;
+        width: 100%;
+        @include disp(row, center, flex-start);
+    }
+    .clipart{
+        width: 25vw;
+    }
+}
+
+@media (min-width: 512px)and (max-width: 767px) {
+    .clipartContainer{
+        height: 100%;
+        width: 100%;
+        @include disp(row, center, flex-start);
+    }
+    .clipart{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 511px) {
+    .clipartContainer{
+        height: 100%;
+        width: 100%;
+        @include disp(row, center, flex-start);
+    }
+    .clipart{
+        width: 60%;
+    }
+}
+
+@media (min-height: 591px) and (max-height: 780px) {
+    .clipart{
+        width: 40%;
+    }
+}
+
+@media screen and (max-height: 590px) {
+    .clipart{
+        width: 30%;
+    }
+}

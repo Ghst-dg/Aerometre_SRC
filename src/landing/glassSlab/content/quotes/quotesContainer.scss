@@ -1,0 +1,54 @@
+@import '../../../../source.scss';
+
+.qContainer{
+    height: 100%;
+    width: 50%;
+    @include disp();
+}
+
+.quotes {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    .qContainer{
+        height: 10vh;
+        width: 100%;
+        @include disp(row, center, center);
+    }
+    .quotes {
+        color: white;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 512px)and (max-width: 767px) {
+    .qContainer{
+        height: 20vh;
+        width: 100%;
+        @include disp(row, center, center);
+        margin-top: 5%;
+    }
+    .quotes {
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 511px) {
+    .qContainer{
+        height: 20vh;
+        width: 100%;
+        @include disp(row, center, center);
+    }
+    .quotes {
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+

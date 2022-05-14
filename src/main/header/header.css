@@ -1,0 +1,53 @@
+.MHeader {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  -webkit-animation: topPop 2s 1;
+          animation: topPop 2s 1;
+}
+
+@-webkit-keyframes topPop {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes topPop {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.backButton {
+  display: none;
+}
+
+@media screen and (max-width: 949px) {
+  .backButton {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 24px;
+    border: none;
+    box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=header.css.map */

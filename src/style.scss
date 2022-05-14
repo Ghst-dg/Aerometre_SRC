@@ -1,0 +1,15 @@
+$fontFamily : 'Urbanist', sans-serif;
+
+body{
+    margin: 0;
+    font-family: $fontFamily;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.err{
+    font-size: 64px;
+    text-align: center;
+}

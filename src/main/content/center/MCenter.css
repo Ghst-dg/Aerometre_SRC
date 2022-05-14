@@ -1,0 +1,11 @@
+.MCenter {
+  height: 95%;
+  width: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=MCenter.css.map */
