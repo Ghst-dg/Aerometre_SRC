@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "style(tab).css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <title>Aerometre</title>
+    </head>
+    <body>
+        <div class = "main">
+
+            <div class = "header">
+                <div class = "titleBox">
+                    <span class = "cityTitle">Ranchi</span>
+                    <span class = "timeText">20-4-2022 Tuesday</span>
+                </div>
+                <div class = "searchContainer"></div>
+                <button class = "backButton"></button>
+            </div>
+
+            <div class = "topContent">
+                <div class = "leftSide">
+                    <div class = "mainIconContainer">
+                        <img src = "sun.png" class = "mainIcon">
+                        <span class = "indiText">Sunny</span>
+                    </div>
+                    <div class = "mainIconContainer">
+                        <img src = "mask.png" class = "mainIcon">
+                        <span class = "indiText">Unhealthy</span>
+                    </div>
+                </div>
+
+                <div class = "topCenter"></div>
+
+                <div class = "rightSide">
+                    <!-- <div class = "dataContainer">
+                        <div class = "searchContainer">
+                            <input type="text" class = "searchBox">
+                            <img src = "search.png" class = "searchImage">
+                        </div>
+                    </div> -->
+                    <div class = "dataContainer">
+                        <span class = "textOnly">10<sup>&deg;C</sup></span>
+                    </div>
+                    <div class = "dataContainer">
+                        <span class = "textOnly">100</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class = "glassSlab">
+                <div class = "glassTitle">
+                    <span class = "glassTitleText">Weather</span>
+                </div>
+                <div class = "glassContent">
+                    <div class = "aqiData"></div>
+                    <div class = "invisi"></div>
+                    <div class = "invisi"></div>
+                    <!-- <div class = "aqiData">
+                        <div class = "dataBox">
+                            <div class = "iconContainer">
+                                <img src = "co.png" class = "icon">
+                            </div>
+                            <div class = "textContainer">
+                                <div class = "miniTitle">
+                                    <span class = "miniTitleText">CO2</span>
+                                </div>
+                                <div class = "miniData">
+                                    <span class = "miniDataText">100 ug/m3</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class = "glassBttnsContainer">
+                    <button class = "glassButton">Air Quality</button>
+                    <button class = "glassButton">Weather</button>
+                    <button class = "glassButton">Astronomy</button>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
